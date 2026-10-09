@@ -2,11 +2,11 @@
 
 > Resultado de **cada** cenário da modelagem. Legenda: ✅ Passou · ❌ Falhou (ver bug) · ⚠️ Passou com ressalva / ambiguidade · ⛔ Bloqueado · ⬜ Pendente
 
-- **Ambiente:** https://verzel-store.qa-test-verzel-store.workers.dev/ (compartilhado — carrinho próprio por candidato)
+- **Ambiente:** https://verzel-store.qa-test-verzel-store.workers.dev/
 
 - **Navegador / SO:** Chrome 139.0.7258.128 · Windows
 
-- **Período de execução:** 06/10/2026 a 08/10/2026
+- **Período de execução:** 06/10/2026 a 09/10/2026
 
 - **Executor:** (preencher nome)
 

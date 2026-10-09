@@ -4,15 +4,6 @@ Capturas e registros da execução. O documento consolidado está em [`../report
 
 ## Convenção
 
-```
-evidence/
-├── CT-CUP-001/01-carrinho-antes.png
-├── CT-CUP-001/02-cupom-aplicado.png
-├── CT-FRT-006/01-subtotal-200.png
-├── ...
-└── BUG-001/01-resultado-obtido.png
-```
-
 - Uma pasta por caso de teste (`CT-…`) ou por bug (`BUG-…`).
 - Arquivos numerados na ordem dos passos, nome em minúsculas sem acento.
 - Cada captura deve mostrar **subtotal, desconto, frete e total** quando o caso envolver valores.
