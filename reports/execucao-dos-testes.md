@@ -8,7 +8,7 @@
 
 - **Período de execução:** 06/10/2026 a 09/10/2026
 
-- **Executor:** (preencher nome)
+- **Executor:** Lucas Anselmo Luiz Lopes
 
 ## Resumo
 
@@ -65,12 +65,14 @@ Cada sessão tem *charter* e tempo definido; anotar o que foi explorado, o que f
 | Sessão | Charter | Tempo | Achados | Bugs / dúvidas |
 |---|---|---:|---|---|
 | SE-01 | Explorar comportamentos de estado e entradas não cobertas nos testes estruturados: cupom vazio, somente espaços, caixa mista, caracteres especiais, reaplicação após remoção e troca de cupom. | 30 min | | |
-| SE-02 | Explorar combinações dinâmicas do carrinho não cobertas pelos casos estruturados: alterar quantidade, adicionar/remover produtos e verificar o recálculo de cupom, frete e total após mudanças. | 30 min | | |
+
 
 ## Regressão
 
-Após correções (ou ao final da execução), reexecutar os fluxos P1 pela automação e registrar o resultado:
+## 📊 Relatório de testes online
 
-| Data | Comando | Resultado |
-|---|---|---|
-| | `npm test` (em `playwright/`) | |
+Acesse o relatório publicado no GitHub Pages:
+
+👉 **[Ver relatório de testes — Verzel Store QA](https://lucas5497.github.io/verzel-store-qa-automation/)**
+
+O relatório permite consultar os resultados e as informações disponibilizadas pela publicação.

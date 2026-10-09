@@ -5,7 +5,7 @@
 **Tempo planejado:** 30 minutos  
 | **Ambiente** https://verzel-store.qa-test-verzel-store.workers.dev/ · Chrome _139.0.7258.128_ · Windows · 07/10/2026   
 **Abordagem:** Testes exploratórios de UI, com consulta à API quando necessário.  
-**Objetivo:** Investigar comportamentos complementares aos 38 testes estruturados, priorizando entradas atípicas, transições de estado e recálculo dos valores do carrinho.
+**Objetivo:** Investigar comportamentos complementares aos 37 testes estruturados, priorizando entradas atípicas, transições de estado e recálculo dos valores do carrinho.
 
 ## Escopo da exploração
 

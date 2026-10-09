@@ -22,17 +22,17 @@ Validar a entrega **VZS-142, versão 2.3.0** da Verzel Store: os critérios de a
 | Tabela de decisão | Subtotal × cupom → desconto, frete e total (CT-FRT-006, CT-FRT-007) |
 | Transição de estados | Aplicar, trocar e remover cupom (CA05) |
 | Adivinhação de erros | Caixa e espaços no cupom, ruído de ponto flutuante, contorno do limite pela API |
-| Testes exploratórios | 4 sessões com *charter* ([`reports/execucao-dos-testes.md`](../reports/execucao-dos-testes.md)) |
+| Testes exploratórios | 1 sessões com *charter* ([`reports/execucao-dos-testes.md`](../reports/execucao-dos-testes.md)) |
 
 ## 4. Riscos e prioridade
 
 Onde um defeito mais custa e onde as regras mais interagem:
 
-1. **Frete × desconto (CA08/CA09)** — o frete grátis deve usar o subtotal *antes* do desconto: CT-FRT-06 e CT-FRT-007.
-2. **Limite de 5 unidades na interface *e* na API (CA10)** — uma camada pode ser contornada pela outra: CT-QTD-03 a 05.
+1. **Frete × desconto (CA08/CA09)** — o frete grátis deve usar o subtotal *antes* do desconto: CT-FRT-006 e CT-FRT-007.
+2. **Limite de 5 unidades na interface *e* na API (CA10)** — uma camada pode ser contornada pela outra: CT-QTD-003 a 005.
 3. **Valores monetários (CA11)** — somas e percentuais em ponto flutuante podem vazar casas decimais: CT-VAL-001.
 4. **Normalização do cupom (CA02)** — caixa e espaços: CT-CUP-03.
-5. **Diferença entre `/calcular` e `/pedidos`** — o mesmo cupom ruim é 200 num e 422 no outro: CT-CUP-04, 05 e 08.
+5. **Diferença entre `/calcular` e `/pedidos`** — o mesmo cupom ruim é 200 num e 422 no outro: CT-CUP-004, 005 e 008.
 
 Os casos **P1** (14) rodam primeiro e são os primeiros candidatos à automação.
 
